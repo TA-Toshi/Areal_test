@@ -14,11 +14,11 @@
                     Список статей
                 </router-link>
             </v-btn>
-            <!-- <v-btn outlined class="ml-3">
-                <router-link to ="/article/:id" style="color: black; text-decoration: none;">
-                    article
+            <v-btn outlined class="ml-3">
+                <router-link to ="/analytic/" style="color: black; text-decoration: none;">
+                    Комментарии за период
                 </router-link>
-            </v-btn> -->
+            </v-btn>
 
         </v-app-bar>
     </v-container>

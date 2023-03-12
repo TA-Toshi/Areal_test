@@ -5,6 +5,7 @@ const {Op} = require('sequelize')
 class analytic_controller{
     async analytic(req, res, next){
         const {dataFrom, dataTo} = req.query
+        console.log(req.query)
         res.json(await comments.findAll({
             where:{createdAt:{
                 [Op.gte]:dataFrom,
